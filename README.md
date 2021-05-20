@@ -17,7 +17,7 @@ this will create the file [triangles](triangles.vtu), which look like this (the 
 
 ![triangles](triangle.png)
 
-if ou want to compile the binary writer you can simply replace the source file with the correct one. If you want to compile with double precision instead of single you will need the following flags (plus uncomment line 27 in `write_vtu_raw.f90`)
+if you want to compile the binary writer you can simply replace the source file with the corresponding one. If you want to compile with double precision instead of single you will need the following flags (plus uncomment line 27 in `write_vtu_raw.f90`)
 ```bash
 gfortran write_vtu_raw.f90 -o write_vtu -DDUBON -fdefault-real-8
 ```
